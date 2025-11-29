@@ -32,10 +32,10 @@ ueberzug_offset = [ 0, 0, 0, 0 ]
 [opener]
 edit = [
 	# { run = '${EDITOR:-vi} "$@"', desc = "$EDITOR", block = true, for = "unix" },
-	{ run = 'cursor "$@"',     orphan = true,  desc = "code",            for = "macos" },
-	{ run = 'cursor -w "$@"',  block  = true,  desc = "code (block)",    for = "macos" },
-	{ run = 'code %*',       orphan = true,  desc = "code",            for = "windows" },
-	{ run = 'code -w %*',    block  = true,  desc = "code (block)",    for = "windows" },
+	{ run = 'cursor "$@"',     orphan = true,  desc = "cursor",            for = "macos" },
+	{ run = 'cursor -w "$@"',  block  = true,  desc = "cursor (block)",    for = "macos" },
+	{ run = 'cursor %*',       orphan = true,  desc = "cursor",            for = "windows" },
+	{ run = 'cursor -w %*',    block  = true,  desc = "cursor (block)",    for = "windows" },
 ]
 open = [
 	{ run = 'xdg-open "$1"',                desc = "Open", for = "linux" },
@@ -55,7 +55,7 @@ extract = [
 	{ run = 'ya pub extract --list %*',   desc = "Extract here", for = "windows" },
 ]
 play = [
-	{ run = 'mpv --force-window "$@"', orphan = true, for = "unix" },
+	{ run = 'open -a mpv "$@"', orphan = true, for = "macos" },
 	{ run = 'mpv --force-window %*', orphan = true, for = "windows" },
 	{ run = '''mediainfo "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show media info", for = "unix" },
 ]
