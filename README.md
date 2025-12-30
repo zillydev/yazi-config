@@ -8,6 +8,6 @@
 
 - Clone into `~/.config/yazi`, use `git clone <url> .` to clone without creating a new directory
 
-## Install themes
+## Install packages and themes
 
 `ya pkg install`
