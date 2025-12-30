@@ -3,10 +3,10 @@ deps = []
 
 [[flavor.deps]]
 use = "gosxrgxx/flexoki-dark"
-rev = "3e8cfba"
-hash = "56a96293138f09da7fae25ee405a4393"
+rev = "28e1977"
+hash = "bc4620db89cf55bd91906c239f8fa1a8"
 
 [[flavor.deps]]
 use = "gosxrgxx/flexoki-light"
-rev = "9d53f85"
-hash = "4871da00f8c49c6ad3ba552652539199"
+rev = "45eb0a0"
+hash = "80ba3eec4bf0b9770b1558c26b5b4a72"
