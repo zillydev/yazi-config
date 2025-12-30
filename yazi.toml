@@ -6,7 +6,7 @@
 ratio          = [ 1, 4, 3 ]
 sort_by        = "alphabetical"
 sort_sensitive = false
-sort_reverse 	 = false
+sort_reverse   = false
 sort_dir_first = true
 sort_translit  = false
 linemode       = "size"
@@ -30,17 +30,19 @@ ueberzug_offset = [ 0, 0, 0, 0 ]
 
 [opener]
 edit = [
-	# { run = "${EDITOR:-vi} %s", desc = "$EDITOR",      for = "unix", block = true },
-	{ run = "cursor %s",          desc = "cursor",         for = "macos,windows", orphan = true },
-	{ run = "code -w %s",       desc = "cursor (block)", for = "macos,windows", block = true },
+	# { run = "${EDITOR:-vi} %s",   desc = "$EDITOR",        for = "unix", 	  block = true },
+	{ run = "cursor %s",            desc = "cursor",         for = "macos",   orphan = true },
+	{ run = "cursor -w %s",         desc = "cursor (block)", for = "macos",   block = true },
+	{ run = "cursor %s",            desc = "cursor",         for = "windows", orphan = true },
+	{ run = "cursor -w %s",         desc = "cursor (block)", for = "windows", block = true },
 ]
 play = [
 	{ run = "xdg-open %s1",                desc = "Play", for = "linux" },
-	{ run = "open -a mpv %s",                     desc = "Play", for = "macos" },
-	{ run = "mpv --force-window %s", orphan = true, desc = "Play", for = "windows" },
+	{ run = "open -a mpv %s",              desc = "Play", for = "macos" },
+	{ run = "mpv --force-window %s",       orphan = true, desc = "Play", for = "windows" },
 	{ run = "termux-open %s1",             desc = "Play", for = "android" },
 	{ run = "mediainfo %s1; echo 'Press enter to exit'; read _", block = true, desc = "Show media info", for = "unix" },
-	{ run = "mediainfo %s1 & pause", block = true, desc = "Show media info", for = "windows" },
+	{ run = "mediainfo %s1 & pause",       block = true, desc = "Show media info", for = "windows" },
 ]
 open = [
 	{ run = "xdg-open %s1",    desc = "Open", for = "linux" },
@@ -235,7 +237,7 @@ open_origin = "hovered"
 open_offset = [ 0, 1, 50, 7 ]
 
 [which]
-sort_by      	 = "none"
+sort_by        = "none"
 sort_sensitive = false
-sort_reverse 	 = false
+sort_reverse   = false
 sort_translit  = false
