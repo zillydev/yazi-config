@@ -1,17 +1,17 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:zoom"
-rev = "da5b695"
-hash = "7cf11690b16255b11b15a325e2e9791a"
+rev = "6f50636"
+hash = "6ce49cf5b4c7c0d9cce8a1062ed478d3"
 
 [[plugin.deps]]
 use = "uhs-robert/sshfs"
-rev = "75a025c"
-hash = "e1cebecfee70daef1f97aa083209340c"
+rev = "5edff3b"
+hash = "e92138f6eb884bef96d92b2d114ac927"
 
 [[plugin.deps]]
 use = "pirafrank/what-size"
-rev = "d896656"
-hash = "62251f94eb67648d42cdfcfb8be0fad2"
+rev = "179ebf6"
+hash = "57056b9728006881d580ccabe8154a9c"
 
 [[flavor.deps]]
 use = "gosxrgxx/flexoki-dark"
