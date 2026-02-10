@@ -31,10 +31,10 @@ ueberzug_offset = [ 0, 0, 0, 0 ]
 [opener]
 edit = [
 	# { run = "${EDITOR:-vi} %s",   desc = "$EDITOR",        for = "unix", 	  block = true },
-	{ run = "cursor %s",            desc = "cursor",         for = "macos",   orphan = true },
-	{ run = "cursor -w %s",         desc = "cursor (block)", for = "macos",   block = true },
-	{ run = "cursor %s",            desc = "cursor",         for = "windows", orphan = true },
-	{ run = "cursor -w %s",         desc = "cursor (block)", for = "windows", block = true },
+	{ run = "zed %s",            desc = "zed",         for = "macos",   orphan = true },
+	{ run = "zed -w %s",         desc = "zed (block)", for = "macos",   block = true },
+	{ run = "zed %s",            desc = "zed",         for = "windows", orphan = true },
+	{ run = "zed -w %s",         desc = "zed (block)", for = "windows", block = true },
 ]
 play = [
 	{ run = "xdg-open %s1",                desc = "Play", for = "linux" },
