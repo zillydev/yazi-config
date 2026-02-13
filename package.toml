@@ -13,6 +13,11 @@ use = "pirafrank/what-size"
 rev = "179ebf6"
 hash = "57056b9728006881d580ccabe8154a9c"
 
+[[plugin.deps]]
+use = "boydaihungst/save-clipboard-to-file"
+rev = "9fcd6c4"
+hash = "d67c9d3df0b067be229fb526c77b08ae"
+
 [[flavor.deps]]
 use = "gosxrgxx/flexoki-dark"
 rev = "28e1977"

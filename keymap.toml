@@ -392,3 +392,8 @@ desc = "Open SSHFS options"
 on = [ "'", "s" ]
 run  = "plugin what-size"
 desc = "Calc size of selection or cwd"
+
+[[mgr.prepend_keymap]]
+on = [ "p", "c" ]
+run  = "plugin save-clipboard-to-file"
+desc = "Paste clipboard content to file and hover after created"
