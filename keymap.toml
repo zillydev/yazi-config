@@ -394,6 +394,6 @@ run  = "plugin what-size"
 desc = "Calc size of selection or cwd"
 
 [[mgr.prepend_keymap]]
-on = [ "p", "c" ]
+on = [ "'", "c" ]
 run  = "plugin save-clipboard-to-file"
 desc = "Paste clipboard content to file and hover after created"
