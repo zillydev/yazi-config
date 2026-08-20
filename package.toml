@@ -1,29 +1,29 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:zoom"
-rev = "88990a6"
-hash = "6ce49cf5b4c7c0d9cce8a1062ed478d3"
+rev = "4848aac"
+hash = "e8e279463ee99c940e6945a14cf4aa9e"
 
 [[plugin.deps]]
 use = "uhs-robert/sshfs"
-rev = "4070c8e"
-hash = "a4cd81fe60c350c3f0fde9957f4a4bb9"
+rev = "a8b8903"
+hash = "8c1b36103121a66b37308afaf7124575"
 
 [[plugin.deps]]
 use = "pirafrank/what-size"
-rev = "179ebf6"
+rev = "c1a8cb6"
 hash = "57056b9728006881d580ccabe8154a9c"
 
 [[plugin.deps]]
 use = "boydaihungst/save-clipboard-to-file"
-rev = "9fcd6c4"
-hash = "d67c9d3df0b067be229fb526c77b08ae"
+rev = "084113f"
+hash = "eee76f9c3c2bf1d23c3d3b5e830527c7"
 
 [[flavor.deps]]
 use = "gosxrgxx/flexoki-dark"
-rev = "28e1977"
-hash = "bc4620db89cf55bd91906c239f8fa1a8"
+rev = "25d28ce"
+hash = "8e6dd7e42a127173e4535993d3e0e393"
 
 [[flavor.deps]]
 use = "gosxrgxx/flexoki-light"
-rev = "45eb0a0"
-hash = "80ba3eec4bf0b9770b1558c26b5b4a72"
+rev = "1b1e677"
+hash = "a80630a255909a511aba8a98d115bc15"

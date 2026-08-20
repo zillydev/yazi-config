@@ -1,3 +1,7 @@
 [flavor]
-dark = "flexoki-dark"
-light = "flexoki-light"
+# Ghostty reports the macOS *system* appearance via DEC 2031, but renders its own
+# dark palette regardless. macOS being in light mode therefore made yazi load the
+# light flavor onto a dark terminal. Pin both to dark; swap `light` back to
+# "flexoki-light" if Ghostty ever gets a real light theme.
+dark  = "flexoki-dark"
+light = "flexoki-dark"
